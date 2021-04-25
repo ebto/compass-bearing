@@ -14,3 +14,9 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(input.rotation(Rotation.Pitch))
     basic.clearScreen()
 })
+basic.forever(function () {
+    if (pins.digitalReadPin(DigitalPin.P0) == 1) {
+        basic.showIcon(IconNames.Surprised)
+        basic.clearScreen()
+    }
+})

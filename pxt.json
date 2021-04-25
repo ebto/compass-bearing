@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "signal_block": "github:hirowo/signal_block#edf448f53994633584c394ad40b3b9db7b5cf88a"
     },
     "files": [
         "main.blocks",
